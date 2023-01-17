@@ -10,6 +10,14 @@
       "StackName": "amplify-amplifynextauth-dev-104519",
       "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-amplifynextauth-dev-104519/18bfbb40-9697-11ed-a401-0a1c67a94c85",
       "AmplifyAppId": "drnu5pyba4wjk"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drnu5pyba4wjk",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
