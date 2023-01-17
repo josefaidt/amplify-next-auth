@@ -9,13 +9,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "DISCORD_CLIENT_ID=$DISCORD_CLIENT_ID" >> .env
-        - echo "DISCORD_CLIENT_SECRET=$DISCORD_CLIENT_SECRET" >> .env
-        - npm install --global pnpm
-        - pnpm install --frozen-lockfile
+        # - npm install --global pnpm
+        # - pnpm install --frozen-lockfile
+        - npm install
     build:
       commands:
-        - pnpm run build
+        # - pnpm run build
+        - npm run build
   artifacts:
     baseDirectory: .next
     files:
