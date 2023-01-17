@@ -2,6 +2,7 @@ import NextAuth from 'next-auth'
 import DiscordProvider from 'next-auth/providers/discord'
 
 export default NextAuth({
+  secret: 'supersecret123',
   providers: [
     DiscordProvider({
       clientId: process.env.DISCORD_CLIENT_ID,
